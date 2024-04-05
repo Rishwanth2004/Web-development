@@ -1,0 +1,57 @@
+html,body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#wrapper{
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    background-color: teal;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+input{
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    margin-top: 30px;
+    /* height: 2.2px;
+    width: 250px; */
+    padding: 12px;
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    background-color: darksalmon;
+    border-radius: 7px;
+    font-weight: 650px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    padding:12px ;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgba(255, 20, 145, 0.76);
+}
+
+#todoList p{
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+#todoList p:hover{
+    cursor: pointer;
+}
