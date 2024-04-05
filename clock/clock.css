@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    user-select: none;
+    cursor:default;
+    color: white;
+}
+
+h2{
+    color:aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.frame{
+    width: 600px;
+    height: 300px;
+    background-color: #111;
+    border: 50px solid aqua;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: rgb(8, 8, 8);
+    font-size: 80px;
+    text-align: center;
+    line-height: 210px;
+}
+.clock{
+    text-shadow: 0 0 20px aqua;
+
+}
