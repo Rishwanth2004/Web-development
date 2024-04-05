@@ -1,0 +1,98 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height:100vh;
+    background-image: url('flight.jpg');
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    font-size: 15px;
+}
+
+.newyear{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top:30px;
+}
+
+.counter{
+    display:flex;
+    margin-top: 30px;
+}
+
+.box{
+    width:70px;
+    height:50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size:28px;
+    font-weight:500;
+}
+
+.box small{
+    font-size:10px;
+}
+
+@media (min-width:576px) {
+    p{
+        font-size: 20px;
+        color: aqua;
+    }
+
+    .newyear{
+        font-size: 100px;
+    }
+
+    .box{
+        width:120px;
+        height:70px;
+    }
+
+    .box h2{
+        font-size: 38px;
+    }
+
+    .box small{
+        font-size:15px;
+    }
+}
+
+@media (min-width:776px) {
+    p{
+        font-size: 20px;
+        color: red;
+    }
+
+    .newyear{
+        font-size: 150px;
+    }
+
+    .box{
+        width:140px;
+        height:80px;
+    }
+
+    .box h2{
+        font-size: 40px;
+    }
+
+    .box small{
+        font-size:20px;
+    }
+}
